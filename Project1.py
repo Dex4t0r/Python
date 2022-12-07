@@ -23,5 +23,5 @@ def portScan(tgHost, tgPorts):
         print('Scanning Port: %d'% tgPort)
         conScan(tgHost, int(tgPort))
 if __name__ == '__main__':
-    portScan("xnxx.com", [80, 22])
+    portScan("site.com", [80, 22])
     
